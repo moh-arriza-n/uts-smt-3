@@ -36,9 +36,6 @@ if ($proses_data){
 		<tr>
 			<td><input name="simpan" type="submit"></td>
 		</tr>
-		<tr>
-			<td><input name="simpan" type="submit"></td>
-		</tr>
 	</table>
 </form>
 

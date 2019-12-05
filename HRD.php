@@ -31,14 +31,12 @@ if ($proses_data){
 		</tr>
 		<tr>
 				<td>JUMLAH_CUTI</td>
-				<td><input name="JABATAN" type="number"></td>
+				<td><input name="JUMLAH_CUTI" type="number"></td>
 		</tr>
 		<tr>
 			<td><input name="simpan" type="submit"></td>
 		</tr>
-		<tr>
-			<td><input name="simpan" type="submit"></td>
-		</tr>
+		
 	</table>
 </form>
 

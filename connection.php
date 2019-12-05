@@ -2,7 +2,7 @@
 $user = "root";
 $server = "localhost";
 $password = "";
-$database = "data_barang";
+$database = "db_karyawan";
 $notif=mysql_connect($server,$user,$password);
 if($notif){
 	echo 'Koneksi terjalin (OK) ';

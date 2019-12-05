@@ -1,7 +1,7 @@
 <?php
 include('connection.php');
 if(isset($_POST['simpan'])){
-	$query_tambah_data="insert into HRD(NO,NAMA,JABATAN,JUMLAH_CUTI)values
+	$query_tambah_data="insert into marketing(NO,NAMA,JABATAN,JUMLAH_CUTI)values
 	('".$_POST['NO']."',
 		'".$_POST['NAMA']."',
 		'".$_POST['JABATAN']."',

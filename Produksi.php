@@ -1,7 +1,7 @@
 <?php
 include('connection.php');
 if(isset($_POST['simpan'])){
-	$query_tambah_data="insert into HRD(NO,NAMA,JABATAN,JUMLAH_CUTI)values
+	$query_tambah_data="insert into produksi(NO,NAMA,JABATAN,JUMLAH_CUTI)values
 	('".$_POST['NO']."',
 		'".$_POST['NAMA']."',
 		'".$_POST['JABATAN']."',
@@ -31,7 +31,7 @@ if ($proses_data){
 		</tr>
 		<tr>
 				<td>JUMLAH_CUTI</td>
-				<td><input name="JABATAN" type="number"></td>
+				<td><input name="JUMLAH_CUTI" type="number"></td>
 		</tr>
 		<tr>
 			<td><input name="simpan" type="submit"></td>
